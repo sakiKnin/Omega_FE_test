@@ -1,0 +1,191 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-body {
+  background-color: #ffff;
+  min-height: 90vh;
+  padding-top:1rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.filter-wrapper{
+  display:flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  width:50%;
+  padding:0.5rem;
+}
+
+.filter-input{
+  width:20%;
+}
+
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+  border-color: #000;
+}
+
+.btn-wrapper{
+  width:100%;
+  padding:1rem;
+  display: flex;
+}
+
+button{
+  cursor: pointer;
+  color: "red";
+}
+
+.form-wrapper{
+  width: 100%;
+  position:fixed;
+  
+  top:25%;
+  display: flex;
+  z-index: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form{
+  width: 50%;
+  
+  margin-top: 1rem;
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    
+}
+
+.detail-wrapper{
+  width: 100%;
+  position:fixed;
+  
+  
+  top:25%;
+  display: flex;
+  z-index: 2;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail{
+  width:50%;
+  background-color: #ccc;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  margin:0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.create-btn-wrapper{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top:1rem;
+  margin-bottom:1rem;
+}
+
+.submit-btn{
+  
+  width: 8rem;
+  height:2rem;
+  margin-left:1rem;
+  cursor: pointer;
+  background-color: greenyellow;
+}
+
+.main-wrapper{
+  z-index: 0;
+  
+}
+
+.modal-wrapper{
+  position: fixed; 
+  width: 100%; 
+  height: 100%; 
+  background: #ccc; 
+  opacity: 0.9
+}
+
+input{
+ height:1.5rem;
+  width:80%;
+}
+
+.input-detail{
+  width:10rem;
+}
+select{
+  width:100%;
+  height: 2rem;
+}
+
+.close-modal-btn{
+  background:gold;
+  height: 2rem;
+  width: 8rem;
+}
+
+.save-modal-btn{
+  background:greenyellow;
+  margin-left:1rem;
+  height: 2rem;
+  width: 8rem;
+}
+
+ 
+ 
+
+ 
