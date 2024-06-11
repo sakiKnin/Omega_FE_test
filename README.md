@@ -6,7 +6,7 @@ npm start
 
 TODO:
 
-Za implementirati ostao je još prikaz artikala za pojedinačni ugovor.
+Za implementirati, ostao je još prikaz artikala za pojedinačni ugovor.
 
 
 
